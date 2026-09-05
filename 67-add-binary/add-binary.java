@@ -19,6 +19,6 @@ class Solution {
             k--;
             carry=sum/2;
         }
-        return new String(result, k + 1, result.length - k - 1);
+        return new String(result,k+1,result.length-k-1);
     }
 }
